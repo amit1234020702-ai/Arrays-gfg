@@ -4,6 +4,8 @@ Output: 34
 T:(n)
 S:(1)
 
+ 0   1   2  3   4   5
+[12, 35, 1, 10, 34, 1]
 
 class Solution {
     public int getSecondLargest(int[] arr) {

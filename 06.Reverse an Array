@@ -4,7 +4,7 @@ s:(n)
 T:(1)
 class Solution {
     public void reverseArray(int arr[]) {
-        int left=0;
+        int left=0; 
         int right=arr.length-1;
         while(left<right){ 
             int temp=arr[left];

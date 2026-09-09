@@ -3,8 +3,9 @@ Output: [2, 3]
 
   
 T:o(n)
-S:O(1)
-
+S:O(1)              0 1 2 3 4
+                    2 4 3 5 6
+                    
 
 class Solution {
     public ArrayList<Integer> minAnd2ndMin(int[] arr) {

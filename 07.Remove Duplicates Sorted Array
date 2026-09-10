@@ -16,7 +16,7 @@ class Solution {
         return new ArrayList<>(set);
         
         
-    }
+    } 
 }
 
 /////////////////////////////////////////
@@ -35,5 +35,30 @@ class Solution {
         }
         return i;
         
+    }
+}
+///////////////////////////////////
+class Solution {
+    ArrayList<Integer> removeDuplicates(int[] nums) {
+    //   LinkedHashSet<Integer> set=new LinkedHashSet<>();
+    //     for(int num:arr){
+    //         set.add(num);
+    //     }
+    //     return new ArrayList<>(set);
+        
+        
+    
+        int k=1;
+        for(int j=1;j<nums.length;j++){
+            if(nums[j]!=nums[j-1]){
+                nums[k]=nums[j];
+                k=k+1;
+            }
+        }
+        ArrayList<Integer> ans=new ArrayList<>();
+        for(int i=0;i<k;i++){
+            ans.add(nums[i]);
+        }
+        return ans;
     }
 }

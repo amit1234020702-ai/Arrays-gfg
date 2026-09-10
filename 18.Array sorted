@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 import java.lang.*;
-class GFG 
+class GFG   
 { 
     static boolean isSorted(int arr[], int n)
     {

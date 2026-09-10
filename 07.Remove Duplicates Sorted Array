@@ -2,7 +2,11 @@ Input: arr[] = [2, 2, 2, 2, 2]
 Output: [2]
 
 /////////////////////////
-//hashset 
+//hashset   
+  0 1  2  3  4
+[2, 2, 2, 2, 2]
+              i
+hashmap={ 2}
 class Solution {
     ArrayList<Integer> removeDuplicates(int[] arr) {
        LinkedHashSet<Integer> set=new LinkedHashSet<>();

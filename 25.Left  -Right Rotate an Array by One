@@ -1,7 +1,7 @@
 ///Left Rotate an Array by One
 
 [1, 2, 3, 4, 5]=[2, 3, 4, 5, 1]
-class Solution {
+class Solution { 
     public void leftRotate(int[] arr) {
         
         int n = arr.length;

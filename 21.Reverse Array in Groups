@@ -5,7 +5,7 @@ class Solution { // yt link=https://www.youtube.com/watch?v=bbeUSdsLVsA
             int left=i;
             int right=Math.min(i+k-1,n-1);
             while(left<right){
-                int temp=arr[left];
+                int temp=arr[left];   
                 arr[left]=arr[right];
                 arr[right]=temp;
                 left++;

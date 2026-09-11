@@ -1,7 +1,7 @@
 Input: arr = [16, 17, 4, 3, 5, 2]
 Output: [17, 5, 2]
 class Solution {
-    static ArrayList<Integer> leaders(int arr[]) {
+    static ArrayList<Integer> leaders(int arr[]) { 
         int n=arr.length;
         ArrayList<Integer> res=new ArrayList<>();
         int currLeader=arr[n-1];

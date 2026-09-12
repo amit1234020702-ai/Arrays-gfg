@@ -1,7 +1,15 @@
 class Solution {
     public int findMin(int[] arr) {
+
        int low=0;
-       int high=arr.length-1;  //yt=https://www.youtube.com/watch?v=Eprw6nNAdTc
+       int high=arr.length-1;
+if(arr.length==1){
+return arr[0];
+}
+if(arr[0]<arr[nums.length-1]{
+return arr[0];
+}
+//yt=https://www.youtube.com/watch?v=Eprw6nNAdTc
        while(low<high){
            int mid=(high+low)/2;
            if(arr[mid]>arr[high]){

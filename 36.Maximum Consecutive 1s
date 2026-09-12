@@ -6,7 +6,7 @@ arr = [1, 1, 0, 1, 1, 1]
 Answer = 3
 
 
-
+ 
 class Solution {
     public int maxConsecutiveOnes(int[] arr) {
 

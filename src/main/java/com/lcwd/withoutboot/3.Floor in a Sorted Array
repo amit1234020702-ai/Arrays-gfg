@@ -8,7 +8,7 @@ yt link=https://www.youtube.com/watch?v=3Up7GyRYag8
 
 
 class Solution {
-    static int findFloor(int[] arr, int x) {
+    static int findFloor(int[] arr, int x) { 
         int top=0;
         int bottom=arr.length-1;
         int ans=-1;

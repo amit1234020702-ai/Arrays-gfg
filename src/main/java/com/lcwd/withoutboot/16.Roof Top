@@ -9,7 +9,7 @@ Space: O(1)
 
 class Solution {
     public int maxStep(int[] arr) {
-        int count = 0;
+        int count = 0; 
         int max = 0;
 
         for (int i = 1; i < arr.length; i++) {

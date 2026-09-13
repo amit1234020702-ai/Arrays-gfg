@@ -24,7 +24,7 @@ class Solution {
         // return n+1;
         
         
-        //// best solution
+        //// best solution ///yt=https://www.youtube.com/watch?v=ZjxJdeR-am8
         int size=arr.length;
         Arrays.sort(arr);
         int num=1;

@@ -4,7 +4,7 @@ d = 2
 Time = O(n)
 Space = O(1)
 hint
-1>full reverse
+1>full reverse  
 2>first d reverse
 3>remaining reverse
 class Solution {
